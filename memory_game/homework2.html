@@ -1,0 +1,40 @@
+<html>
+<HEAD>
+<TITLE>Homework2</TITLE>
+<script src="javascript.js"></script>
+<link type="text/css" rel="stylesheet" href="homework2.css" media="screen" />
+</HEAD>
+<body onload=''>
+<center>
+<br> 
+<form name="f" id="form">
+<br> 
+<h2>Memory Game</h2>
+<p id="user">welcome  </p>
+<a id="u" style="display:none" href="javascript:change()"><u>Change User</u></a>
+<br>
+<input type="button" id="b" value="Start" name="b" onClick="start()">
+<br><br>
+<table cellpadding="2" cellspacing="2" border="0">
+<script language="javascript">
+<!--
+for (r = 0; r <= 3; r++) {
+document.write('<tr>');
+for (c = 0; c <= 4; c++) {
+document.write('<td align="center">');
+document.write('<a href="javascript:showimage('+((5*r)+c)+')">');
+document.write('<img src="images/0.gif" name="img'+((5*r)+c)+'" border="0">');
+document.write('</a></td>');
+}
+document.write('</tr>');
+}
+-->
+</script>
+</table>
+<br>
+<p id="p" style="display:none">Last time performance:  <input type="text" id="perfor"><p><br>
+
+</form>
+</center>
+</body>
+</html>

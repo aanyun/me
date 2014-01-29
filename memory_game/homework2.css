@@ -1,0 +1,12 @@
+alert{
+text-align:center;
+}
+body{background-color:#FBEFF5;}
+#form
+{background:url(images/background.jpg) center;width:400px;height:550px}
+#perfor
+{width:110px;}
+#user{line-height:60%;font:bold 19px Helvetica;margin-bottom:0;}
+#p{font:bold 16px Helvetica;}
+#b{padding:3px 3px 3px 3px;font:normal 14px Helvetica;background-color:#FFE6FF}
+#u{font:normal 13px Helvetica;color:blue;margin-right:10px;float:right}

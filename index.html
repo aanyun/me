@@ -1,0 +1,488 @@
+<html lang="en">
+<title>Anyun's personal webpage</title>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$('#home').click(function(){
+		$('#card2').addClass('hide');
+		$('#card3').addClass('hide');
+		$('#card1').removeClass('hide');
+	});
+	$('#about').click(function(){
+		$('#card1').addClass('hide');
+		$('#card3').addClass('hide');
+		$('#card2').removeClass('hide');
+	});
+	$('#contact').click(function(){
+		$('#card2').addClass('hide');
+		$('#card1').addClass('hide');
+		$('#card3').removeClass('hide');
+	});
+	$('#intern1').mouseover(function(){
+		$('#collapseOne').collapse('show');
+	});
+	$('#intern1').mouseleave(function(){
+		$('#collapseOne').collapse('hide');
+	});
+	$('#intern2').mouseover(function(){
+		$('#collapseTwo').collapse('show');
+	});
+		$('#intern2').mouseleave(function(){
+		$('#collapseTwo').collapse('hide');
+	});
+	$('#intern3').mouseover(function(){
+		$('#collapseThree').collapse('show');
+	});
+	$('#intern3').mouseleave(function(){
+		$('#collapseThree').collapse('hide');
+	});
+	});
+
+	</script>
+</head>
+<body style='background-image:url(img/bkg.jpg);background-repeat:repeat;' onload="$('#carousel-example-generic').carousel()">
+    <div style='position:absolute;z-index:999' id="gg1">
+     <img src="img/2.png" />
+    </div>
+	<script type="text/javascript">
+	 var ad2=new AdMove("gg1");
+	        ad2.Run();	 
+    </script>
+	<div class="container">
+		<div class="row">
+  		<div class="col-md-8 col-md-offset-2" id="content">
+  			<div id='cards'>
+  			<!-- Card 1 -->
+	  		<div class='card' id='card1'>
+			<div id="carousel-example-generic" class="carousel slide" data-interval='3000'>
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			  </ol>
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="img/index.jpg" alt="...">
+			      <div class="carousel-caption"> 
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="img/moto.jpg" alt="...">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>
+			  	<div class="item">
+			      <img src="img/travel.jpg" alt="...">
+			      <div class="carousel-caption">
+			      <h3>I love travelling</h3>
+			      Chicago,IL
+			      </div>
+			    </div>
+			  	<div class="item">
+			      <img src="img/hotpot.jpg" alt="...">
+			      <div class="carousel-caption">
+			      <h3>I love spicy food</h3>
+			      Hot Pot
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="img/animal.jpg" alt="...">
+			      <div class="carousel-caption">
+			      <h3>Zoo-My favorite place</h3>
+			      Pittsburgh Zoo
+			      </div>
+			    </div>
+		        <div class="item">
+			      <img src="img/life.jpg" alt="...">
+			      <div class="carousel-caption">
+			      <h3>I enjoy life in USA</h3>
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			    <span class="icon-prev"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			    <span class="icon-next"></span>
+			  </a>
+			</div>
+	  		</div>
+
+	  		<!-- Card 2 -->
+	  		<div id='card2' style='margin:10px' class='card hide'>
+	  			<a href='img/Anyun_Li_resume.pdf' class='pull-right'><b>Download my Resume</b></a>
+	  			
+	  			<ul class="nav nav-tabs" id="myTab">
+				  <li class="active"><a href="#profile">Profile</a></li>
+				  <li><a href="#education">Education</a></li>
+				  <li><a href="#projects">Projects</a></li>
+				  <li><a href="#workexperience">Work Experience</a></li>
+				</ul>
+
+				<div class="tab-content">
+				  <div class="tab-pane active" id="profile">
+				  	<dl class="dl-horizontal">
+					  <dt>Name</dt><dd>Anyun Li</dd>
+					  <br>
+					  <dt>Place of Birth</dt>
+
+					  <dd>Chengdu,China</dd>
+					  <br>
+
+					  <dt>Skills</dt>
+					  <dd><li>Highly experienced C, C#, Java, Python, Shell language programming.</li>
+						<li>Asp .Net, PHP, Jsp, HTML, CSS, Javascript, JQuery, Ajax Web programming experience </li>
+						<li>Android application development experience </li>
+						<li>Solid knowledge of database, data structure, data Warehouse, OLAP; SQL and no-SQL(Mongo DB) experience; Knowledge of Hadoop </li>
+						<li>Skilled in system analysis & design, data modeling, UML </li>
+						<li>Skilled in Microsoft Office Software, Google Docs, Microsoft Access, Adobe Photoshop, Adobe Illustrator, Adobe Flash, Adobe Premiere</li>
+						<li>Knowledge in marketing, finance, statistics, accounting </li>
+						</dd>
+					</dl>
+				  </div>
+				  <div class="tab-pane" id="education">
+					<blockquote>
+					  <p><img style='width:50px' src='http://upload.wikimedia.org/wikipedia/en/2/2c/University_of_Pittsburgh_logo.png'>&nbsp;<b>University of Pittsburgh</b></p>
+					  <small>Masters, Information Science GPA: 3.50 <br>Anticipated Graduation Date: Dec 2013</small>
+					  <p>Courses: Web Engineering/Database Management/Advanced Database/Data Analytics/Data Mining/Information Systems Analysis/Software Engineering/Interactive System Design/Human Information Processing/Human Factors in Systems </p>
+					</blockquote>
+					<blockquote class="pull-right">
+					  <p><img style='width:50px' src='http://upload.wikimedia.org/wikipedia/en/thumb/d/db/ECNU_Emblem.svg/220px-ECNU_Emblem.svg.png'>&nbsp;<b>East China Normal University</b></p>
+					  <small>BA, Computer Science and Technology (Major), 2012</small><small>BA, Finance, (Minor), 2012</small>
+						<p>Courses: Data Structures/Algorithmic Analysis and Design/Technology of Web Application/Design of Application System/XML Technology and Application</p>
+					</blockquote>
+				  </div>
+				  <div class="tab-pane" id="projects">
+					<ul>
+					<li><b><a href='http://www.sis.pitt.edu/~ali/memory_game/homework2.html' target="view_window">Online Memory Game</a> </b><ul><li>Html, Javascript, Cookies</li></ul></li>
+					<li><b>Online Shop </b><ul><li>(Pair work) JSP, Tomcat, Myeclipse</li></ul></li>
+					<li><b><a data-toggle="modal" href="#project3" onclick='$("#project_3").carousel()'>Android applications development </a></b><ul><li>(Pair work) Java, Microsoft's speech SDK, Sensors in Android, Eclipse </li></ul></li>
+					<li><b><a data-toggle="modal" href="#project2" onclick='$("#project_2").carousel()'>Music Player with Speech Recognition Function</a></b><ul><li>C#, Microsoft's speech SDK</li></ul></li>
+					<li><b>Online Shop </b><ul><li>(3 persons team) PHP, html, Jquery, Mysql (Customer requirement analysis; Database design and front-end design) </li></ul></li>
+					<li><b>Personal Blog Website </b><ul><li>PHP, html, css, Javascript, Mysql </li></ul></li>
+					<li><b><a data-toggle="modal" href="#myModal" onclick='$("#project_1").carousel()'>Movie Box Office Analysis</a></b> <ul><li>PHP, Python, Google Chart API (Capturing real time data from Internet by python and visualization data) </li></ul></li>
+					<li><b>Online book shopping system </b><ul><li>(3 persons team) ASP.NET, MS SQL (Sale statistic and management; Online help and manuals)</li></ul></li>
+					<li><b>Designed and implemented a small computer game under Linux system </b><ul><li>(4 persons team work) </li></ul></li>
+					</ul>
+
+				  </div>
+
+				  <div class="tab-pane" id="workexperience">
+
+				  <div class="panel-group" id="">
+
+				  <div id='intern1'>
+				  <div class="panel panel-default">
+				    <div class="panel-heading">
+				      <h4 class="panel-title">
+				          <img style='width:25px;margin-left:10px' src="img/logo.png">&nbsp;Krowdbyz
+				          <small><i style='font-size:10px;'>Senior Developer/Tech Lead</i> 
+				          	<p class='pull-right' style='font-size:10px'>Intern, July 2013 - Present</p></small>
+			          	
+				      </h4>
+				    </div>
+				    
+				    <div id="collapseOne" class="panel-collapse collapse">
+				      <div class="panel-body">
+				        Help finish project design and make decisions on technique questions;
+				        <br> Design and build the database (Mysql); 
+				        <br> Implement UI(self-responsive webpage);
+				        <br> Implement core functions and review scripts from junior developer;
+				        <br> Integrate all the units;
+				        <br>Lead around 8 developers' team and focus on script efficiency and help realize a real-time Two Player Game Website in PHP.
+				      </div>
+				    </div>
+				  </div>
+				  </div>
+				  <div id='intern2'>
+				  <div class="panel panel-default">
+				  	
+				    <div class="panel-heading" >
+				      <h4 class="panel-title">
+				          <img style='width:50px' src="img/boc.png">Bank of China
+				        <small><i style='font-size:10px;'>Database Team, Information Management Department</i> 
+				          	<p class='pull-right' style='font-size:10px'>Intern, May 2013 - July 2013</p></small>
+				      </h4>
+				    </div>
+				    <div id="collapseTwo" class="panel-collapse collapse">
+				      <div class="panel-body">
+				      	Discussion requirements with users from Personal Bank, Loans Division, etc.;
+				        <br>Automatically process raw data (excel files) every month into database via Shell;
+				        <br> Collect target data from database (PL/SQL); 
+				        <br>Create report UI for user (JSP/java).
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				  <div id='intern3'>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" >
+				      <h4 class="panel-title">
+				       
+				          <img style='width:40px;margin-left:10px' src="http://www.cipherme.net/lib/img/icons/logos/companies/banks/hsbc/logo.png">&nbsp;HSBC
+				          <small><i style='font-size:10px;'>People Communication Team, Technology and Services Department </i> 
+				          	<p class='pull-right' style='font-size:10px'>Intern, Aug 2011 - Jan 2012</p></small>
+				        
+				      </h4>
+				    </div>
+				    <div id="collapseThree" class="panel-collapse collapse">
+				      <div class="panel-body">
+				        Communicate among functions within Technology and Service Department; 
+				        <br>Make PPT, Videos, posters, manuals (Adobe Suite) for inner conference; 
+				        <br>Update UI of internal website;
+				        <br>Write HTML e-mails.
+				      </div>
+				    </div>
+				</div>
+				  </div>
+				</div>
+				</div>
+				  </div>
+				</div>
+
+				<script>
+				  $(function () {
+				    $('#myTab a:first').tab('show')
+				  })
+				  $('#myTab a').click(function (e) {
+					  e.preventDefault()
+					  $(this).tab('show')
+					})
+				</script>
+	  			
+	  		<!-- Card 3 -->
+			<div id='card3' class='card hide'>
+				<address>
+				  <strong>Anyun Li</strong><br>
+				  340 Oakland Ave, Apt 2<br>
+				  Pittsburgh, PA 15213<br>
+				  <strong>Phone: </strong>(312) 307-6149</br>
+				  <strong>Email: </strong>
+				  <a href="mailto:anyunww@gmail.com">anyunww@gmail.com</a>
+				</address>
+				<div id="social-icons">
+				<a href="http://www.linkedin.com/pub/anyun-li/66/892/41b"><img src="img/icons/linkedin-icon.png" width="48" height="48" alt="LinkedIn" /></a>
+				<a href="https://www.facebook.com/profile.php?id=100004187683203"><img src="img/icons/facebok-icon.png" width="48" height="48" alt="Facebook" /></a>
+				</div>
+	  		</div>
+	  		</div>
+
+			<div class="text-center btn-group btn-group-justified" id='menu'>
+		        <button type='button' style='width:100px' class='btn btn-info' id='home'>Home</button>
+		        <button style='width:100px' class='btn btn-info' id='about'>About Me</button>	     
+		        <button style='width:100px' class='btn btn-info' id='contact'>Contact Me</button>		      
+  			</div>
+
+  			  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">Description</h4>
+			        </div>
+			        <div class="modal-body">
+					<b>System Introduction</b>
+					<p>This OLAP system investigates the relationship among movie, stock and weather. We extract heterogeneous data sources from USA box office, Google finance DJI and weather.com, integrate data using ETL framework (Toolsverse), and build up data warehouse on top of it. With these data sources and data warehouse, we come up with several complicated queries to explore relationship between stock and weather, movie and weather, movie and stock. We implemented data visualization and added data update features in our web-based OLAP.</p>
+					<div id="project_1" class="carousel slide" data-interval='2000'>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#project_1" data-slide-to="0" class="active"></li>
+					    <li data-target="#project_1" data-slide-to="1"></li>
+					    <li data-target="#project_1" data-slide-to="2"></li>
+					    <li data-target="#project_1" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/p_8.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      Using python script extract data from website and load into database.
+					    </div>
+					    <div class="item">
+					      <img src="img/p_1.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      This query survey the weeks of target city's DJI (Dow Jones Index) when weekly index range is the largest top 10. Then count abnormal weather days of each week. When the difference between actual temperature and history average temperature is larger than 15F,we assume it's abnormal weather.
+					    </div>
+   					    <div class="item">
+					      <img src="img/p_3.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      Movie ranking information. We can see the day that movie's office box reaches the top is Friday or weedend day.
+
+					    </div>
+					    <div class="item">
+					      <img src="img/p_5.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      Can search from left part (input begin date, end date and city) or right part(only select a city; begin data and end data inputting in next page)
+					     
+					    </div>
+					    <div class="item">
+					      <img src="img/p_6.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					     
+					      You can see a line chart showing the max temperature, mean temperature and min temperature of the dates and city you selected.
+You can also see previous years' history weather temperature of that day (blue line) and comparing it with real temperature of the date you selected.
+					    </div>
+					    <div class="item">
+					      <img src="img/p_9.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					     Users can see the line chart of DJI between the dates you selected.
+					    </div>
+
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#project_1" data-slide="prev">
+					    <span class="icon-prev"></span>
+					  </a>
+					  <a class="right carousel-control" href="#project_1" data-slide="next">
+					    <span class="icon-next"></span>
+					  </a>
+					</div>
+
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			          <a href="mailto:anyunww@gmail.com" class="btn btn-primary">Email Me!</a>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+
+
+    		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">Description</h4>
+			        </div>
+			        <div class="modal-body">
+					<b>Overview</b>
+					<p>The speech recognition music player provides the user with the ability to add music files, delete music file, control the play of songs, and set the play mode just like the normal music player. But it also can use voice commands controlling this music player and in some circumstances it will give audio feedback.</p>
+					<p>After user manually adds some songs into this application, user can press the particular blue button to start speech recognition and voice control function. Just like you are talking with application, tell it what you want to do (play the music, pause the music, play the next music, etc.)</p>
+					<p>user may exit simply by saying 'exit', 'exit system', 'close' or 'close system'</p>
+					<div id="project_2" class="carousel slide" data-interval='2000'>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#project_2" data-slide-to="0" class="active"></li>
+					    <li data-target="#project_2" data-slide-to="1"></li>  			  
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/p_10.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>					     
+					    </div>
+					    <div class="item">
+					      <img src="img/p_11.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>					      
+					    </div>  					  
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#project_2" data-slide="prev">
+					    <span class="icon-prev"></span>
+					  </a>
+					  <a class="right carousel-control" href="#project_2" data-slide="next">
+					    <span class="icon-next"></span>
+					  </a>
+					</div>
+
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			          <a href="mailto:anyunww@gmail.com" class="btn btn-primary">Email Me!</a>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+			<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">Description</h4>
+			        </div>
+			        <div class="modal-body">
+					
+					<img style='hight:40px;width:40px' src="img/app.png"/><b>Simple Android App - Notebook</b>
+					
+					<p>This Notebook needs to input password to access to the content.</p>
+					<div id="project_3" class="carousel slide" data-interval='2000'>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#project_3" data-slide-to="0" class="active"></li>
+					    <li data-target="#project_3" data-slide-to="1"></li>  			  
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/app_1.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					       Login/Change Password Interface				     
+					    </div>
+					    <div class="item">
+					      <img src="img/app_2.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      After you login, you can see your notebook records and touch the ‘add new’ icon to create new one.				      
+					    </div>  
+					    <div class="item">
+					      <img src="img/app_3.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					      Touch the title of the note on the list for a long time, you will see the menu; Touch the title for just a short time, you will open this note.					      
+					    </div> 					  
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#project_3" data-slide="prev">
+					    <span class="icon-prev"></span>
+					  </a>
+					  <a class="right carousel-control" href="#project_3" data-slide="next">
+					    <span class="icon-next"></span>
+					  </a>
+					</div>
+
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			          <a href="mailto:anyunww@gmail.com" class="btn btn-primary">Email Me!</a>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+
+		</div>
+	</div>
+		
+	</div>
+	
+</body>
+</html>
